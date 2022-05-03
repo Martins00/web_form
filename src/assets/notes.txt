@@ -1,0 +1,17 @@
+Randoms
+whenever we use the  v-for property, we need a key that contains a unique property for the cycling of data.
+This key has to be binded so it can keep track of the data that is being input
+
+2-way data binding: v-model enhances this
+In the sense that if we use normal binding, it will only bind it one way. V-model helps us with a two way bind.
+
+v-model
+It is for tracking our input.
+we put it in the tag of whatever we want to track and make it equal to the name we give it in the data object.
+
+Keyup
+The key up event fires up an event whenever there is change or an event in an input field.
+Using the Keyup.alt, fires the event, but does not include the key that we used to fire it.
+For instance, if our fire key was , if we used @keyup.alt, it will fire the event we set to it, but it will not include the ,
+
+The keyup is a keyboard event, and adding alt, makes it a keyboard event modifier.  
